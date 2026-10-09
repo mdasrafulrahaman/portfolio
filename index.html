@@ -3,36 +3,149 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of MD Asraful Rahaman, Software Engineer and Android Developer.">
-  <title>MD Asraful Rahaman | Software Engineer</title>
-  <style>
-    :root{--ink:#101828;--slate:#475467;--muted:#667085;--line:#dfe6ee;--paper:#fff;--wash:#f6f9fc;--aws:#146eb4;--navy:#0d2a4c;--orange:#ff9900;--glow:#eef7ff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.eyebrow{margin:0 0 12px;font-size:.76rem;letter-spacing:.13em;font-weight:800;color:var(--aws);text-transform:uppercase}.section{padding:92px 0}.tint{background:var(--wash)}h1,h2,h3,p{margin-top:0}h2{max-width:720px;margin-bottom:14px;font-size:clamp(2rem,4vw,3rem);line-height:1.15;letter-spacing:-.045em}.lede{color:var(--slate);max-width:690px;font-size:1.06rem}header{height:76px;display:flex;align-items:center;position:sticky;top:0;z-index:5;background:rgb(255 255 255/.88);backdrop-filter:blur(14px);border-bottom:1px solid rgb(223 230 238/.8)}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:1.05rem;font-weight:850;letter-spacing:-.035em}.brand span{color:var(--aws)}nav{display:flex;gap:24px;align-items:center;font-size:.9rem;color:var(--slate)}nav a:hover{color:var(--aws)}.hero{overflow:hidden;padding:78px 0 90px;background:radial-gradient(circle at 82% 25%,#dcefff 0,transparent 27%),linear-gradient(135deg,#f8fbff 0%,#fff 60%)}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:62px}.hero h1{margin-bottom:20px;font-size:clamp(3rem,7vw,5.65rem);line-height:.98;letter-spacing:-.075em}.hero h1 em{color:var(--aws);font-style:normal}.intro{max-width:650px;color:var(--slate);font-size:1.12rem}.hero-photo{width:min(340px,100%);justify-self:end;aspect-ratio:1;object-fit:cover;object-position:center 17%;border-radius:35% 35% 13% 35%;border:9px solid #fff;box-shadow:18px 18px 0 var(--orange),0 20px 55px rgb(16 24 40/.18)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:31px}.button{display:inline-flex;align-items:center;gap:8px;padding:12px 19px;border:1px solid var(--aws);border-radius:7px;font-weight:750;font-size:.95rem;transition:.2s}.primary{background:var(--aws);color:#fff}.primary:hover{background:#095b99;transform:translateY(-2px)}.secondary{color:var(--aws)}.secondary:hover{background:var(--glow)}.signal{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}.signal span{padding:6px 10px;border:1px solid var(--line);border-radius:100px;background:#fff;color:var(--slate);font-size:.82rem;font-weight:650}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:42px}.card{padding:27px;border:1px solid var(--line);border-radius:12px;background:#fff;transition:box-shadow .2s,transform .2s}.card:hover{transform:translateY(-4px);box-shadow:0 13px 28px rgb(16 24 40/.08)}.icon{display:grid;place-items:center;height:42px;width:42px;margin-bottom:19px;color:var(--aws);background:var(--glow);border-radius:10px;font-weight:900;font-size:.92rem}.card h3{margin-bottom:8px;font-size:1.1rem;letter-spacing:-.025em}.card p{margin-bottom:17px;color:var(--slate);font-size:.94rem}.card a{color:var(--aws);font-size:.9rem;font-weight:800}.card a:hover{text-decoration:underline}.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.cert{min-height:205px;padding:24px;border:1px solid #d8e4ee;border-radius:12px;background:#fff;display:flex;flex-direction:column;justify-content:space-between}.badge{width:53px;height:53px;border-radius:50%;display:grid;place-items:center;background:#eff7ff;border:3px solid #d4eafa;color:var(--aws);font-size:1.1rem;font-weight:900}.cert h3{margin:18px 0 4px;font-size:1rem}.cert p{margin:0;color:var(--muted);font-size:.86rem}.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}.skills{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px}.skills span{padding:7px 11px;color:var(--navy);background:#edf5fb;border-radius:5px;font-size:.88rem;font-weight:700}.timeline{border-left:2px solid #d8e8f4;padding-left:25px}.timeline-item{position:relative;padding-bottom:24px}.timeline-item:before{content:"";position:absolute;width:10px;height:10px;border-radius:100%;background:var(--orange);border:3px solid #fff;outline:2px solid var(--orange);left:-32px;top:8px}.timeline h3{margin-bottom:2px;font-size:1rem}.timeline p{color:var(--slate);margin:0;font-size:.93rem}.contact{text-align:center;background:var(--navy);color:#fff;padding:90px 0}.contact h2{margin-inline:auto}.contact .lede{margin:0 auto 27px;color:#cfdfed}.contact .secondary{color:#fff;border-color:#7596b2}.contact .secondary:hover{background:#173a60}.socials{display:flex;justify-content:center;gap:20px;margin-top:28px;color:#bdd1e2;font-weight:700;font-size:.9rem}.socials a:hover{color:var(--orange)}footer{padding:24px;text-align:center;color:#8ba9c2;background:#0a2038;font-size:.82rem}@media(max-width:760px){nav{display:none}.hero{padding-top:55px}.hero-grid,.about{grid-template-columns:1fr;gap:38px}.hero-photo{justify-self:start;max-width:255px;order:-1}.grid,.certs{grid-template-columns:1fr}.section{padding:67px 0}.hero h1{font-size:3.35rem}}
-    /* Android developer visual layer */
-    :root{--android:#3ddc84;--violet:#8b5cf6;--cyan:#00c2ff;--deep:#07152b}
-    body{background:#f5f9ff}
-    header{background:rgb(7 21 43/.90);border-bottom:1px solid rgb(112 179 255/.2)}
-    .brand,nav{color:#e9f3ff}.brand span{color:var(--android)}nav a:hover{color:var(--android)}
-    .hero{position:relative;color:#eff7ff;background:radial-gradient(circle at 82% 25%,rgb(61 220 132/.22),transparent 24%),radial-gradient(circle at 18% 80%,rgb(139 92 246/.3),transparent 34%),linear-gradient(128deg,#07152b 0%,#0a315a 54%,#102345 100%)}
-    .hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;background-image:linear-gradient(rgb(110 197 255/.26) 1px,transparent 1px),linear-gradient(90deg,rgb(110 197 255/.26) 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(90deg,#000,transparent)}
-    .hero-grid{position:relative;z-index:1}.hero h1 em{color:var(--android)}.hero .intro{color:#c6d9ea}.hero .eyebrow{color:#6ee7ff}.hero-photo{box-shadow:18px 18px 0 var(--android),0 0 0 1px rgb(255 255 255/.3),0 24px 60px rgb(0 194 255/.22)}
-    .primary{background:linear-gradient(135deg,#00a6eb,#2563eb);border-color:#55caff}.primary:hover{background:linear-gradient(135deg,#00b578,#06a6e2)}.hero .secondary{color:#dff6ff;border-color:#6aa8d3}.hero .secondary:hover{background:rgb(61 220 132/.15)}.signal span{background:rgb(255 255 255/.08);border-color:rgb(170 225 255/.27);color:#dcecff}
-    .tint{background:linear-gradient(135deg,#eef7ff 0%,#f8f5ff 100%)}
-    #projects{position:relative;background:linear-gradient(135deg,#071a35,#102a52);color:#fff;overflow:hidden}#projects:before{content:"ANDROID // PROJECTS";position:absolute;right:-22px;top:16px;color:rgb(123 203 255/.08);font-size:clamp(2rem,8vw,7rem);font-weight:900;letter-spacing:-.08em}#projects .eyebrow{color:#75e9ff}#projects .lede{color:#b8d0e9}#projects h2{position:relative}#projects .card{position:relative;overflow:hidden;background:linear-gradient(150deg,rgb(27 70 116/.9),rgb(9 33 64/.9));border-color:rgb(113 209 255/.23);box-shadow:0 17px 35px rgb(0 0 0/.16)}#projects .card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--android),var(--cyan),var(--violet))}#projects .card h3{color:#fff}#projects .card p{color:#c8daec}#projects .card a{color:#67e8f9}#projects .icon{color:#09253d;background:linear-gradient(135deg,var(--android),#8bf4ff)}
-    #focus .cert{background:linear-gradient(145deg,#fff,#eff8ff);border-color:#d4e9fc}#focus .cert:nth-child(2) .badge{background:#f0ebff;color:var(--violet);border-color:#ded4ff}#focus .cert:nth-child(3) .badge{background:#e7fff1;color:#088d48;border-color:#c3f5d8}.badge{background:#e6f9ff;color:#008dc4;border-color:#bfeafa}
-    #growth .card{border-top:3px solid var(--cyan)}#growth .card:nth-child(2){border-top-color:var(--violet)}#growth .card:nth-child(3){border-top-color:var(--android)}
-    .contact{position:relative;overflow:hidden;background:radial-gradient(circle at 22% 0,#1e6b93 0,transparent 27%),radial-gradient(circle at 86% 100%,#443082 0,transparent 32%),#07152b}.contact:before{content:"{";position:absolute;left:5%;top:-80px;color:rgb(61 220 132/.12);font:900 20rem/1 monospace}.contact:after{content:"}";position:absolute;right:5%;bottom:-160px;color:rgb(0 194 255/.12);font:900 20rem/1 monospace}.contact .wrap{position:relative;z-index:1}.contact .primary{background:linear-gradient(135deg,var(--android),#00a6eb);border-color:transparent;color:#06253e}.contact .secondary{border-color:#75bae7}
-  </style>
+  <meta name="theme-color" content="#080b15">
+  <meta name="description" content="MD Asraful Rahaman — Android developer and software engineer building useful mobile experiences with Kotlin, Java, Firebase and modern web technologies.">
+  <meta property="og:title" content="MD Asraful Rahaman — Developer Portfolio">
+  <meta property="og:description" content="Crafting thoughtful mobile experiences and useful digital products.">
+  <meta property="og:type" content="website">
+  <title>MD Asraful Rahaman — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-  <header><div class="wrap nav"><a class="brand" href="#top">MD<span>.</span>Asraful</a><nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#focus">Skills</a><a href="#growth">Growth</a><a href="#contact">Contact</a></nav></div></header>
-  <main id="top">
-    <section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Software Engineer | Android Developer</p><h1>Building useful<br><em>mobile experiences.</em></h1><p class="intro">I'm <strong>MD Asraful Rahaman</strong>, a BCA graduate and Android developer who enjoys turning ideas into reliable, user-focused applications with Java, Kotlin, Firebase, and thoughtful engineering.</p><div class="actions"><a class="button primary" href="mailto:mdasrafulrahaman2003@gmail.com">Let's work together &rarr;</a><a class="button secondary" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">View GitHub &nearr;</a></div><div class="signal"><span>Java &amp; Kotlin</span><span>Android</span><span>Firebase</span><span>Problem Solving</span></div></div><img class="hero-photo" src="assets/asraful.jpg" alt="Portrait of MD Asraful Rahaman"></div></section>
-    <section class="section" id="about"><div class="wrap about"><div><p class="eyebrow">About me</p><h2>Practical engineering, continuous learning.</h2><p class="lede">My focus is Android development and the foundations behind dependable software: clean object-oriented design, data structures, databases, networking, and collaborative version control.</p><div class="skills"><span>Java</span><span>Kotlin</span><span>SQL</span><span>Python</span><span>Android Studio</span><span>XML</span><span>Firebase Auth</span><span>Realtime Database</span><span>Git &amp; GitHub</span><span>OOP | DSA | DBMS</span></div></div><div class="timeline"><div class="timeline-item"><h3>BCA | 2025</h3><p>Global College of Science and Technology (MAKAUT)</p></div><div class="timeline-item"><h3>BA, English Literature | 2026</h3><p>Netaji Subhas Open University, West Bengal</p></div><div class="timeline-item"><h3>B.Ed | 2027</h3><p>Baba Saheb Ambedkar Education University (BSAEU)</p></div><div class="timeline-item"><h3>Building toward SDE-1</h3><p>Creating Android applications while strengthening product development and engineering fundamentals.</p></div></div></div></section>
-    <section class="section tint" id="projects"><div class="wrap"><p class="eyebrow">Selected work</p><h2>Android applications built around everyday needs.</h2><p class="lede">A growing portfolio of practical Android projects, combining clean interfaces with Java, XML, Firebase, and core software-engineering principles.</p><div class="grid"><article class="card"><div class="icon">01</div><h3>Online Notes Application</h3><p>A secure note-taking application where users can create, update, organize, and access notes online. Firebase Authentication and Realtime Database support a simple, connected experience.</p><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">View on GitHub &rarr;</a></article><article class="card"><div class="icon">02</div><h3>Music Player</h3><p>An Android music player focused on smooth playback, intuitive navigation, and a clean listening experience. Built to explore media handling, activity flow, and polished mobile UI design.</p><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">View on GitHub &rarr;</a></article><article class="card"><div class="icon">03</div><h3>Image to PDF Converter</h3><p>A utility application that turns selected images into portable PDF documents. The project focuses on file handling, Android permissions, and a straightforward conversion workflow.</p><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">View on GitHub &rarr;</a></article></div></div></section>
-    <section class="section" id="focus"><div class="wrap"><p class="eyebrow">Technical focus</p><h2>Skills developed through hands-on building.</h2><p class="lede">My strongest interests sit at the intersection of Android development, reliable data-driven features, and strong computer-science fundamentals.</p><div class="certs"><article class="cert"><div class="badge">A</div><div><h3>Android Development</h3><p>Java, Kotlin, Android Studio, XML layouts, activities, user flows, and mobile-first interface design.</p></div></article><article class="cert"><div class="badge">F</div><div><h3>Firebase Integration</h3><p>Firebase Authentication and Realtime Database for user access and connected application data.</p></div></article><article class="cert"><div class="badge">CS</div><div><h3>Engineering Foundations</h3><p>Object-oriented programming, DSA, DBMS, operating systems, networks, SQL, Git, and GitHub.</p></div></article></div></div></section>
-    <section class="section tint" id="growth"><div class="wrap"><p class="eyebrow">Learning in public</p><h2>Exploring software through projects and practice.</h2><p class="lede">I continue to sharpen my engineering skills by building Android applications, solving programming problems, and maintaining an active development portfolio.</p><div class="grid"><article class="card"><div class="icon">01</div><h3>Android Development</h3><p>Building mobile apps is where I explore practical UI design, application structure, Firebase services, and useful workflows.</p><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">Explore my projects &rarr;</a></article><article class="card"><div class="icon">02</div><h3>Problem Solving</h3><p>Regular DSA practice helps me develop structured thinking, efficient solutions, and confidence with technical challenges.</p><a href="https://leetcode.com/u/mdasrafulrahaman/" target="_blank" rel="noreferrer">Visit LeetCode &rarr;</a></article><article class="card"><div class="icon">03</div><h3>Open Source Portfolio</h3><p>My GitHub is the home for experiments, project progress, and the applications I continue to improve.</p><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">Explore GitHub &rarr;</a></article></div></div></section>
-    <section class="section"><div class="wrap"><p class="eyebrow">How I work</p><h2>A thoughtful approach to building software.</h2><p class="lede">I value clear problem solving, continuous improvement, and making technology approachable for the people who use it.</p><div class="grid"><article class="card"><div class="icon">01</div><h3>User-focused</h3><p>I begin with the everyday task an application should make easier, then aim for a simple, understandable experience.</p></article><article class="card"><div class="icon">02</div><h3>Curious by default</h3><p>I enjoy learning new tools and concepts, then applying them through practical projects rather than theory alone.</p></article><article class="card"><div class="icon">03</div><h3>Built to improve</h3><p>Each project is an opportunity to refine code quality, strengthen fundamentals, and create a better version of the product.</p></article></div></div></section>
-    <section class="contact" id="contact"><div class="wrap"><p class="eyebrow" style="color:#ffb84c">Get in touch</p><h2>Let's build something useful.</h2><p class="lede">I'm looking for opportunities to contribute, learn, and grow as a software engineer.</p><div class="actions" style="justify-content:center"><a class="button primary" href="mailto:mdasrafulrahaman2003@gmail.com">mdasrafulrahaman2003@gmail.com</a><a class="button secondary" href="tel:+918167864296">Call +91 81678 64296</a></div><div class="socials"><a href="https://www.linkedin.com/in/md-asraful-rahaman" target="_blank" rel="noreferrer">LinkedIn &nearr;</a><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">GitHub &nearr;</a><a href="https://leetcode.com/u/mdasrafulrahaman/" target="_blank" rel="noreferrer">LeetCode &nearr;</a></div></div></section>
-  </main><footer>&copy; 2026 MD Asraful Rahaman. Designed for the web.</footer>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="ambient ambient-three"></div>
+  <div class="grain"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header glass">
+    <a class="brand" href="#home" aria-label="MD Asraful Rahaman home">
+      <span class="brand-mark">A<span>.</span></span>
+      <span class="brand-name">asraful<span class="brand-dot">/</span>dev</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#stack">Stack</a><a href="#projects">Projects</a><a href="#journey">Journey</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.1A8.6 8.6 0 0 1 9.9 3.5 8.8 8.8 0 1 0 20.5 14.1Z"></path></svg>
+      </button>
+      <a class="button button-small button-primary" href="#contact">Let's talk <span>↗</span></a>
+      <button class="menu-toggle icon-button" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-pulse"></span> AVAILABLE FOR THE NEXT CHALLENGE</div>
+        <p class="hero-kicker">ANDROID DEVELOPER <span>·</span> SOFTWARE ENGINEER</p>
+        <h1>Building ideas<br>into <span class="gradient-text">real things.</span></h1>
+        <p class="hero-description">Hey, I'm <strong>Asraful</strong> — a developer who loves turning thoughtful ideas into useful apps, clean interfaces, and experiences that feel effortless.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-glass" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div class="avatar-stack"><span class="avatar avatar-a">A</span><span class="avatar avatar-b">{"</>"}</span><span class="avatar avatar-c">✳</span></div>
+          <div><span class="meta-main">Curiosity-led. Detail-focused.</span><span class="meta-sub">Learning, building, improving — every day.</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract liquid glass orb illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="orb-shadow"></div>
+        <div class="glass-orb"><div class="orb-gloss"></div><div class="orb-core"></div><div class="orb-highlight"></div></div>
+        <div class="float-chip chip-code glass"><span class="chip-icon">⌘</span><span><b>Clean code</b><small>Built with intent</small></span></div>
+        <div class="float-chip chip-mobile glass"><span class="chip-icon">▣</span><span><b>Mobile first</b><small>Made for people</small></span></div>
+        <div class="float-chip chip-status glass"><span class="mini-dot"></span> Always building</div>
+        <div class="hero-art-caption"><span>01 / 04</span><span>CREATIVE ENGINEERING</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-strip section-shell reveal">
+      <p>GOOD SOFTWARE ISN'T JUST FUNCTIONAL.<br><span>IT SHOULD FEEL RIGHT, TOO.</span></p>
+      <div class="strip-symbol">✳</div>
+      <p class="strip-note">From the first sketch to the final interaction,<br>I care about the details that make a difference.</p>
+    </section>
+
+    <section class="section-shell section-block" id="about">
+      <div class="section-heading reveal"><div><span class="section-index">01 — THE PERSON</span><h2>A little about <span class="gradient-text">me.</span></h2></div><p>Technology is my tool. Solving real problems is the point.</p></div>
+      <div class="about-grid">
+        <article class="about-card glass reveal">
+          <div class="card-orbit">✳</div><span class="card-label">THE SHORT VERSION</span>
+          <h3>Developer by craft.<br><span class="muted-text">Problem-solver by nature.</span></h3>
+          <p>I'm an Android developer and BCA graduate based in West Bengal, India. I enjoy building practical mobile applications, exploring new technologies, and learning by shipping real projects.</p>
+          <p>My approach is simple: keep the experience clear, make the details count, and keep improving the work.</p>
+          <div class="location-line"><span>⌖</span> Krishnanagar, West Bengal, India</div>
+        </article>
+        <div class="values-column">
+          <article class="value-card glass reveal"><span class="value-number">01</span><div><h3>Purposeful products</h3><p>Build around a real need, not just a feature list.</p></div><span class="value-arrow">↗</span></article>
+          <article class="value-card glass reveal"><span class="value-number">02</span><div><h3>Thoughtful details</h3><p>Care for clarity, consistency, accessibility and polish.</p></div><span class="value-arrow">↗</span></article>
+          <article class="value-card glass reveal"><span class="value-number">03</span><div><h3>Always learning</h3><p>Experiment, solve problems, reflect, and get better.</p></div><span class="value-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="stack">
+      <div class="section-heading reveal"><div><span class="section-index">02 — MY TOOLKIT</span><h2>Tools for the <span class="gradient-text">job.</span></h2></div><p>A growing toolkit, chosen to make useful things.</p></div>
+      <div class="stack-layout">
+        <article class="stack-feature glass reveal"><div class="stack-feature-top"><span class="stack-icon">⌘</span><span class="card-label">CORE FOCUS</span></div><h3>Android development</h3><p>Building mobile experiences with familiar tools, thoughtful interfaces, and reliable app logic.</p><div class="stack-tags"><span>Java</span><span>Kotlin</span><span>Android Studio</span><span>XML layouts</span></div><div class="stack-decoration">&lt;/&gt;</div></article>
+        <div class="stack-groups">
+          <article class="stack-group glass reveal"><div class="stack-group-title"><span class="stack-mini-icon">◈</span><h3>Backend & data</h3></div><div class="skill-pills"><span>Firebase</span><span>Realtime Database</span><span>Firestore</span><span>REST APIs</span></div></article>
+          <article class="stack-group glass reveal"><div class="stack-group-title"><span class="stack-mini-icon">✳</span><h3>Web & interface</h3></div><div class="skill-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div></article>
+          <article class="stack-group glass reveal"><div class="stack-group-title"><span class="stack-mini-icon">⌬</span><h3>Tools & exploration</h3></div><div class="skill-pills"><span>Git</span><span>GitHub</span><span>Unity</span><span>Blender</span></div></article>
+        </div>
+      </div>
+      <p class="stack-footnote"><span class="mini-dot"></span> This toolkit evolves with every project and every new problem.</p>
+    </section>
+
+    <section class="projects-section">
+      <div class="section-shell section-block" id="projects">
+        <div class="section-heading reveal"><div><span class="section-index">03 — SELECTED WORK</span><h2>Things I've <span class="gradient-text">built.</span></h2></div><p>Experiments, applications, and ideas brought to life.</p></div>
+        <div class="project-toolbar reveal"><span class="project-count">A FEW FROM THE WORKBENCH</span><a href="https://github.com/mdasrafulrahaman?tab=repositories" target="_blank" rel="noreferrer" class="text-link">Browse GitHub repositories <span>↗</span></a></div>
+        <div class="projects-grid">
+          <article class="project-card project-large glass reveal">
+            <div class="project-visual visual-vpn"><div class="visual-glow"></div><div class="vpn-ring"><span>◉</span></div><div class="visual-label">PRIVATE CONNECTION <span>● ACTIVE</span></div><div class="visual-lines"></div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">MOBILE APPLICATION</span><span class="project-number">01 / 04</span></div><h3>Krasha VPN</h3><p>A mobile VPN concept focused on a simple connection flow and a straightforward user experience.</p><div class="project-bottom"><div class="project-tags"><span>Android</span><span>Networking</span><span>UI</span></div><a class="round-link" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer" aria-label="Explore GitHub for Krasha VPN">↗</a></div></div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual visual-notes"><div class="notes-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="notes-heading">Python <em>Notes</em></div><div class="note-row"><b>01</b><span>Variables & types</span><i></i></div><div class="note-row"><b>02</b><span>Control flow</span><i></i></div><div class="note-row"><b>03</b><span>Functions</span><i></i></div></div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">LEARNING TOOL</span><span class="project-number">02 / 04</span></div><h3>Python Notes</h3><p>A notes app concept that makes learning material easy to browse and revisit.</p><div class="project-bottom"><div class="project-tags"><span>Android</span><span>Education</span></div><a class="round-link" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer" aria-label="Explore GitHub for Python Notes">↗</a></div></div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual visual-audio"><div class="audio-disc"><span>♫</span></div><div class="audio-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="audio-caption">LISTEN · LEARN · REPEAT</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">AUDIO EXPERIENCE</span><span class="project-number">03 / 04</span></div><h3>Kyi FM</h3><p>An audio-content app concept with browsable shows, cover art, and playback-focused cards.</p><div class="project-bottom"><div class="project-tags"><span>Firebase</span><span>Audio</span><span>Android</span></div><a class="round-link" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer" aria-label="Explore GitHub for Kyi FM">↗</a></div></div>
+          </article>
+          <article class="project-card project-wide glass reveal">
+            <div class="project-visual visual-story"><div class="story-moon"></div><div class="story-title">STORIES<br><span>AFTER DARK</span></div><div class="story-stars">✦　·　✧　·　✦</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">STORYTELLING</span><span class="project-number">04 / 04</span></div><h3>Story Reader 360</h3><p>A story-reading app concept designed around readable text and Firebase-powered story content.</p><div class="project-bottom"><div class="project-tags"><span>Java</span><span>Firebase</span><span>Reading</span></div><a class="round-link" href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer" aria-label="Explore GitHub for Story Reader 360">↗</a></div></div>
+          </article>
+        </div>
+        <p class="projects-disclaimer">Project descriptions are concise summaries. Visit GitHub for source code and the latest project details.</p>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="journey">
+      <div class="section-heading reveal"><div><span class="section-index">04 — THE JOURNEY</span><h2>Still becoming. <span class="gradient-text">Always.</span></h2></div><p>Every milestone adds a new perspective.</p></div>
+      <div class="journey-grid">
+        <article class="journey-card glass reveal"><div class="journey-icon">✳</div><span class="card-label">EDUCATION</span><h3>Bachelor of Computer Applications</h3><p class="journey-meta">BCA Graduate · MAKAUT</p><p>Built a foundation in computing and software development, with a continued focus on practical application building.</p><div class="journey-line"><span></span><small>FOUNDATION → PRACTICE</small></div></article>
+        <article class="journey-card glass reveal"><div class="journey-icon">↗</div><span class="card-label">CURRENT DIRECTION</span><h3>Android & software engineering</h3><p class="journey-meta">Building · Learning · Iterating</p><p>Developing mobile app projects, strengthening engineering fundamentals, and exploring better ways to design and ship software.</p><div class="journey-line"><span></span><small>IDEA → IMPLEMENTATION</small></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-panel glass reveal">
+        <div class="contact-orb"></div><div class="contact-content"><span class="section-index">05 — YOUR TURN</span><h2>Have an idea?<br><span class="gradient-text">Let's make it real.</span></h2><p>Have a project, an opportunity, or just want to talk tech? My inbox is open.</p><div class="contact-actions"><a class="button button-primary" href="mailto:mdasrafulrahaman@gmail.com">Send me an email <span>↗</span></a><a class="button button-glass" href="https://www.linkedin.com/in/md-asraful-rahaman" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a></div></div>
+        <div class="contact-side"><span class="contact-side-label">FIND ME ELSEWHERE</span><a href="https://github.com/mdasrafulrahaman" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://leetcode.com/u/mdasrafulrahaman/" target="_blank" rel="noreferrer">LeetCode <span>↗</span></a><a href="https://www.linkedin.com/in/md-asraful-rahaman" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><div class="contact-location"><span class="mini-dot"></span> Based in India · Working globally</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span class="brand-name">asraful<span class="brand-dot">/</span>dev</span></a><p>Designed with intention. Built with curiosity.</p><span class="footer-copy">© <span id="year"></span> MD Asraful Rahaman</span><a class="back-top" href="#home" aria-label="Back to top">↑</a></footer>
+  <script src="script.js"></script>
 </body>
 </html>
